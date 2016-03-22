@@ -1,737 +1,326 @@
 <!DOCTYPE html>
-<html lang="pt-br"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+ <html> 
+  <head>
 
+    <!-- Meta -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
+    <meta name="keywords" content="">
     <meta name="author" content="">
+    <meta name="googlebot" content="index,follow">
 
-    <title>Hayô tour</title>
+    <!-- Title -->
+    <title>Aplicativo Hayô</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="style/bootstrap.css" rel="stylesheet">
+    <!-- Templates core CSS -->
+    <link href="stylesheets/application.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="style/agency.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="style/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="style/css_002.css"      rel="stylesheet" type="text/css">
-    <link href="style/css_003.jscss"      rel="stylesheet" type="text/css">
-    <link href="style/css_004.css"      rel="stylesheet" type="text/css">
-    <link href="style/css.css"          rel="stylesheet" type="text/css">
-   
+    <!-- Favicons -->
+    <link href="images/favicon/favicon.png" rel="shortcut icon">
+    <link href="images/favicon/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
+    <link href="images/favicon/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="images/favicon/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="114x114">
 
    
-    
-</head>
 
-<body id="page-top" class="index">
+    <!-- Modernizr Scripts -->
+    <script src="javascript/vendor/modernizr-2.7.1.min.js"></script>
+  </head>
+  <body class="index" id="to-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">HAYÔ TOUR</a>
-            </div>
+    <!-- Side nav -->
+    <nav class="side-nav" role="navigation">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden active">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#services">Funcionalidade</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#portfolio">Cabrália</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#about">Sobre</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#team">Developers</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#contact">Contato</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+      <ul class="nav-side-nav">
+        <li><a class="tooltip-side-nav" href="#section-1" title="" data-original-title="Explore" data-placement="left"></a></li>
+        <li><a class="tooltip-side-nav" href="#section-2" title="" data-original-title="Funções" data-placement="left"></a></li>
+        <li><a class="tooltip-side-nav" href="#section-3" title="" data-original-title="Contato" data-placement="left"></a></li>
+        <li><a class="tooltip-side-nav" href="#to-top" title="" data-original-title="Topo" data-placement="left"></a></li>
+      </ul>
+      
+    </nav> <!-- /.side-nav -->
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-heading">HAYÔ TOUR</div>
-                <h4>Curta a nossa Página no Facebook.</h4>
-                <a href="https://www.facebook.com/hayoapp" class="page-scroll btn btn-xl"><img id="img-facebook" src="imgs/facebook.png"></a>
 
-            </div>
-        </div>
-    </header>
 
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Funcionalidade</h2>
-                    <h3 class="section-subheading text-muted">Veja algumas das funcionalidades do nosso Aplicativo.</h3>
-                </div>
-            </div>
-            <div id="section-Funcionalidade" class="row text-center">
-                <div class="col-md-5">
-                    <a class="img-um" href="#">
-                    <span>
-                       <img class="tela-um" src="imgs/tela2.png">
-                    </span>
-                        </a>
-                    <h4 class="service-heading">Menu</h4>
-                    <p class="text-muted">Interface simples, para conhecer os melhores Pontos Turísticos
-                    e os melhores Restaurantes de nossa Região.</p>
-                </div>
-                
-                <div class="col-md-5">
-                    <a class="img-dois" href="#">
-                    <span>
-                        <img class="tela-dois" src="imgs/tela1.png">
-                    </span>
-                        </a>
-                    <h4 class="service-heading">Lista</h4>
-                    <p class="text-muted">Sinta-se a vontade para escolher o local onde deseja visitar.</p>
-                </div>
-                
-                <div class="col-md-5">
-                    <a class="img-tres" href="#">
-                    <span>
-                       <img class="tela-tres" src="imgs/tela3.png" ;="">
-                    </span>
-                      </a>
-                    <h4 class="service-heading">Detalhe</h4>
-                    <p class="text-muted">Conheça com mais detalhes o local onde vai visitar ou comer, a final quanto mais informações
-                     melhor.</p>
-                </div>
-                     
-            </div>
-        </div>
-    </section>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Pontos Turísticos</h2>
-                    <h3 class="section-subheading text-muted">Conheça alguns dos Pontos Turísticos  que também estão em nosso Aplicativo.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class=""></i>
-                            </div>
-                        </div>
-                        <img src="imgs/coroa-vermelha.jpg" class="img-responsive img-responsive-one" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Coroa Vermelha</h4>                        
-                    </div>
-                </div>
-                
-                
-                
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class=""></i>
-                            </div>
-                        </div>
-                        <img src="imgs/guaiu.jpg" class="img-responsive img-responsive-one" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Guaiú</h4>                        
-                    </div>
-                </div>
-                
-                
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class=""></i>
-                            </div>
-                        </div>
-                        <img src="imgs/st-andre.jpg" class="img-responsive img-responsive-one" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Santo André</h4>                       
-                    </div>
-                </div>
-                
-                
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class=""></i>
-                            </div>
-                        </div>
-                        <img src="imgs/St-cabralia.jpg" class="img-responsive img-responsive-one" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Santa Cruz Cabrália</h4>                       
-                    </div>
-                </div>
-                
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class=""></i>
-                            </div>
-                        </div>
-                        <img src="imgs/PT-PrimeriaMissa.jpg" class="img-responsive img-responsive-one" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Marco da 1 Missa</h4>
-                    </div>
-                </div>
-                
-                
-                
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class=""></i>
-                            </div>
-                        </div>
-                        <img src="imgs/PT-reservaIndigena.JPG" class="img-responsive img-responsive-one" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Reserva Indigena de Coroa Vermelha</h4>
-                    </div>
-                </div>
-                
-                
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class=""></i>
-                            </div>
-                        </div>
-                        <img src="imgs/PT-SantoAndre.jpg" class="img-responsive img-responsive-one" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Praia de Santo André</h4>                        
-                    </div>
-                </div>
-                
-                
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class=""></i>
-                            </div>
-                        </div>
-                        <img src="imgs/PT-Centro-Historico-Santa-Cruz-Cabr%C3%A1lia.jpg" class="img-responsive img-responsive-one" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Centro Histórico Santa Cruz Cabrália</h4>                       
-                    </div>
-                </div>
-                </div>
+    <!-- Jumbotron -->
+    <header class="jumbotron" role="banner">
 
-            </div>
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-7">
+
+            <!-- Logo -->
+            <figure class="text-center">
+              <a href="https://www.facebook.com/hayoapp/">
+                <img class="img-logo" src="images/icons/hayo.png" alt="">
+              </a>
+            </figure> <!-- /.text-center -->
+
+            <!-- Title -->
+            <h1>Hayô</h1>
+
+            <!-- Sub title -->
+            <p>Hayô é um aplicativo de informações sobre a cidade de Santa Cruz Cabrália - Bahia, cidade berço do descobrimento do Brasil. Você sabia? Cabrália foi a casa da Alemanha, tetracampeã da Copa do Mundo FIFA 2014.</p>
+
+            <!-- Button -->
+            <p class="btn-app-store">
+              <a class="btn btn-danger btn-lg" href="https://play.google.com/store/apps/details?id=com.app.hayo">
+                <img src="images/iphone/googleplay.png" height="100" width="292" alt="">
+              </a>
+            </p> <!-- /.btn-app-store -->
+
+          </div> <!-- /.col-md-7 -->
+
+          <div class="col-md-5">
+
+            <!-- Images showcase -->
+            <figure>
+              <img class="img-iPhone" src="images/iphone/new.png" alt="">
+            </figure>
+
+          </div> <!-- /.col-md-5 -->
+          
+        </div> <!-- /.row -->
         
-    </section>
+      </div> <!-- /.container -->
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Sobre</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="imgs/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>HAYÔ</h4>
-                                    <h4 class="subheading">O que é?</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Hayô - sol em 
-Patxohã - é um aplicativo que oferece informações turísticas de Santa 
-Cruz Cabrália. O projeto foi idealizado e desenvolvido por jovens da 
-comunidade em parceria com voluntários da Telefonica/Vivo e oferece aos 
-turistas informações sobre a história, os melhores passeios, 
-restaurantes, hospedagens e infraestrutura da cidade do descobrimento do
- Brasil.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="imgs/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4></h4>
-                                    <h4 class="subheading">Desenvolvimento.</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">O aplicativo é
- resultado do trabalho coletivo de jovens em formação em tecnologia e 
-empreendedorismo do Centro de Educação e Inovação Tecnológica PR3G e foi
- viabilizado  graças a uma parceria inédita entre a Fundação Telefônica 
-Vivo e o Centro de Inovação da Telefônica Vivo, para que seus 
-programadores dessem aulas, voluntariamente, para os jovens que 
-participam da PDE em Santa Cruz Cabrália. </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="imgs/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4></h4>
-                                    <h4 class="subheading">Tempo de desenvolvimento.</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Foram quatro semanas de desenvolvimento com encontros à distância pelo Google Hangout e duas formações presenciais.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="imgs/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>C.E.I.T</h4>
-                                    <h4 class="subheading">Centro de Educação e Inovação Tecnológica</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">O Centro de 
-Educação e Inovação Tecnológica CEIT-PR3G é uma iniciativa da Fundação 
-Telefônica Vivo e Qualcomm Wireless Reach, com o apoio da USAID e 
-Prefeitura de Santa Cruz Cabrália, com execução da Editacuja Editora.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Baixe 
-                                    <br>agora
-                                    <br>na AppStory!</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section><div id="link64_vdp_tabid" style="display:none;">1001</div>
+    </header> <!-- /.jumbotron -->
 
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
+
+
+
+    <!-- Services -->
+    <section class="services-section" id="section-1">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 col-services">
+            
+          
+            
+
+         
+
+          </div> <!-- /.col-md-4 -->
+
+          <div class="col-md-4 col-services">
+            
+            <!-- Icons -->
+            <figure>
+              <img class="img-services" src="images/icons/globo.png" alt="">
+            </figure>
+
+            <!-- Title -->
+            <h4>Gosta de aventuras?</h4>
+
+            <!-- Description -->
+            <p>Conheça a cidade de Santa Cruz Cabrália, na palma da sua mão</p>
+
+          </div> <!-- /.col-md-4 -->
+
+          <div class="col-md-4 col-services">
+            
+           
+          </div> <!-- /.col-md-4 -->
+          
+        </div> <!-- /.row -->
+        
+      </div> <!-- /.container -->
+      
+    </section> <!-- /.services-section -->
+
+
+
+
+    <!-- Features -->
+    <section class="features-section" id="section-2">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-5 col-features text-center">
+            
+            <!-- Images showcase -->
+            <figure>
+              <img class="img-iPhone" src="images/iphone/pontos.png" alt="">
+            </figure>
+
+          </div> <!-- /.col-md-5 -->
+
+          <div class="col-md-7 col-features features-content">
+            
+            <!-- Title -->
+            <h3 id="title-1">Explore os Pontos Turísticos</h3>
+
+            <!-- Description -->
+            <p>Conheça os pontos mais visitados de nossa cidade, e se impressione com a beleza natural de nossas lindas Praias.</p>
+
+          </div> <!-- /.col-md-7 -->
+          
+        </div> <!-- /.row -->
+
+
+
+
+        <div class="row media-screen-800">
+
+          <div class="col-md-7 col-features features-content">
+            
+            <!-- Title -->
+            <h3 id="title-2">Saiba onde ficar</h3>
+
+            <!-- Description -->
+            <p>Conheça os melhores Hóteis e as melhores Pousadas para se hospedar durante a suas férias em Santa Cruz Cabrália.</p>
+
+            
+
+          </div> <!-- /.col-md-7 -->
+
+          <div class="col-md-5 col-features text-center">
+            
+            <!-- Images showcase -->
+            <figure>
+              <img class="img-iPhone margin-top margin-screen-800" src="images/iphone/hospedagens.png" alt="">
+            </figure>
+
+          </div> <!-- /.col-md-5 -->
+          
+        </div> <!-- /.row -->
+
+
+
+
+        <div class="row">
+
+          <div class="col-md-5 col-features text-center">
+            
+            <!-- Images showcase -->
+            <figure>
+              <img class="img-iPhone margin-top margin-top-1" src="images/iphone/restaurantes.png" alt="">
+            </figure>
+
+          </div> <!-- /.col-md-5 -->
+
+          <div class="col-md-7 col-features features-content">
+            
+            <!-- Title -->
+            <h3 id="title-3">Cúlinaria Bahiana</h3>
+
+            <!-- Description -->
+            <p>Conheça os pratos típicos de nossa região, explore os melhores Restaurantes da cidade e se delicie com os melhores cárdapios.</p>
+
+            <!-- Button -->
+             <strong>Com apenas um click, e você pode desfrutar de tudo isso.</strong> <br> <br>
+            <p class="btn-app-store">
+              <a class="btn btn-danger btn-lg" href="https://play.google.com/store/apps/details?id=com.app.hayo">
+                <img src="images/iphone/googleplay.png" height="100" width="292" alt="">
+              </a>
+            </p> <!-- /.btn-app-store -->
+
+          </div> <!-- /.col-md-7 -->
+          
+        </div> <!-- /.row -->
+
+      </div> <!-- /.container -->
+
+    </section> <!-- /.features-section -->
+
+
+
+
+    <!-- Subscribe -->
+    <section class="subscribe-section" id="section-3">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-12">
+
+            <!-- Title 
+            <h4>Santa Cruz Cabrália - Cidade Berço do Descobrimento</h4>
+            -->
+
+            <!-- Subscribe form -->
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Equipe de desenvolvimento</h2>
-                    <h3 class="section-subheading text-muted">Os programadores de hoje são os mágicos do futuro.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img  src="imgs/img-perfil-1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Almir Stark</h4>
-                        <p class="text-muted">Developer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class=""><img class="ImgContato" src="imgs/facebook.png"></i></a>
-                            </li>
-                            <li><a href="#"><i class=""><img class="ImgContato" src="imgs/gmail.png"></i></a>
-                            </li>
-                            <li><a href="#"><i class=""><img class="ImgContato" src="imgs/twitter.png"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="imgs/img-perfil-2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Emerson Stark</h4>
-                        <p class="text-muted">Developer</p>
-                        <ul class="list-inline social-buttons">
-                       <li><a href="#"><i class=""><img class="ImgContato" src="imgs/facebook.png"></i></a>
-                            </li>
-                            <li><a href="#"><i class=""><img class="ImgContato" src="imgs/gmail.png"></i></a>
-                            </li>
-                            <li><a href="#"><i class=""><img class="ImgContato" src="imgs/twitter.png"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+
+              <div class="col-md-6 col-md-offset-3 col-subscribe">
+
+              
                 
-                
-                <div class="col-sm-4.1">
-                    <div class="team-member">
-                        <img src="imgs/img-perfil-4.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Wilson Junior</h4>
-                        <p class="text-muted">Developer</p>
-                        <ul class="list-inline social-buttons">
-                         <li><a href="#"><i class=""><img class="ImgContato" src="imgs/facebook.png"></i></a>
-                            </li>
-                            <li><a href="#"><i class=""><img class="ImgContato" src="imgs/gmail.png"></i></a>
-                            </li>
-                            <li><a href="#"><i class=""><img class="ImgContato" src="imgs/twitter.png"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
+              </div> <!-- /.col-md-6 -->
 
-    <!-- Clients Aside -->
-    <aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">                   
-                        <img src="imgs/vivo.jpg" class="img-responsive img-centered" alt="">
-                   
-                </div>
-                <div class="col-md-3 col-sm-6">
-                 
-                        <img src="imgs/vivo.jpg" class="img-responsive img-centered" alt="">
-                    
-                </div>
-                <div class="col-md-3 col-sm-6">
-                 
-                        <img src="imgs/vivo.jpg" class="img-responsive img-centered" alt="">
-                    
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    
-                        <img src="imgs/vivo.jpg" class="img-responsive img-centered" alt="">
-                   
-                </div>
-            </div>
-        </div>
-    </aside>
+            </div> <!-- /.row -->
+            
+          </div> <!-- /.col-md-12 -->
+          
+        </div> <!-- /.row -->
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contato</h2>
-                    <h3 class="section-subheading text-muted">Entre em contato conosco.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate="">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="Nome" id="name" required="" data-validation-required-message="Desculpe Nome Obrigatório." type="text">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="Email" id="email" required="" data-validation-required-message="Desculpe Email Obrigatório." type="email">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="Assunto" id="phone" required="" data-validation-required-message="Desculpe Assunto Obrigatório." type="tel">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Mensagem" id="message" required="" data-validation-required-message="Desculpe Mensagem Obrigatório."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xll">Enviar mensagem</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+      </div> <!-- /.container -->
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright © by Villa Digital 2015</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-   
-    <!--Modal das Imagens -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row roww">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Coroa Vermelha</h2>                          
-                            <img class="img-responsive img-responsive-two" src="imgs/coroa-vermelha.jpg" alt="">
-                            <p>Reconhecida como ponto de desembarque de Pedro Álvarez Cabral quando chegou ao Brasil, a praia de Coroa Vermelha tem enseada tranquila, com águas rasas e areias brancas. Foi cenário também da primeira missa rezada em terras brasileiras. Possui algumas lojinhas de artesanato produzido pelos índios pataxós.</p>
-                           
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row roww">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Guaiú</h2>
-                            <img class="img-responsive img-responsive-two img-centered" src="imgs/guaiu.jpg" alt="">
-                            <p>Muito mais do que um lugar bonito, Guaiú preserva a essência da natureza. Localizado no extremo sul da Bahia, a 40 km de Porto Seguro e 14 km da vila de Santo André, o povoado faz parte do município de Santa Cruz de Cabrália e mantém intacta uma beleza bucólica natural. É essa singela perfeição que confere ao lugar um esplendor único. Guaiú pode ser considerado uma joia rara do estado da Bahia.</p>                        
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row roww">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">                           
-                            <h2>Santo André</h2>                           
-                            <img class="img-responsive img-responsive-two img-centered" src="imgs/st-andre.jpg" alt="">
-                            <p>Santo André é um vilarejo com pouco mais de 700 habitantes. Conhecido por possuir lindas praias para a pesca e passeios marítimos. Segundo a revista Veja é uma das 13 praias mais belas e exóticas do Brasil. O povoado possui dois projetos sociais: O Centro de Convivência e Cultura e o IASA.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row roww">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Santa Cruz Cabrália</h2>                       
-                            <img class="img-responsive img-responsive-two img-centered" src="imgs/St-cabralia.jpg" alt="">
-                            <p>Além da Coroa Vermelha, Santa Cruz Cabrália oferece 35 quilômetros de praias praticamente desertas protegidas por recifes e piscinas naturais. Uma das poucas praias da região com ondas é Arakakaí, que atrai praticantes de surf e windsurf. Já as ondas fracas de Mutari atraem os adeptos do caiaque e do bodyboard. A praia de Mutá fica na divisa de Cabrália com Porto Seguro e é ponto de parada de escunas e embarcações que levam à Coroa Alta, banco de corais que forma piscinas naturais na maré baixa.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row roww">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Marco da 1 Missa</h2>                           
-                            <img class="img-responsive img-responsive-two img-centered" src="imgs/PT-PrimeriaMissa.jpg" alt="">
-                            <p> Quatro dias após ter atracado suas naus em Santa cruz Cabrália, no domingo de Páscoa, em 26 de abril de 1500, Cabral determinou que se realizasse uma missa no ilhéu da Coroa Vermelha. Segundo á carta de Pero Vaz de Caminha, ali foi realizada a primeira missa em solo brasileiro pelo Frei Franciscano.
-        </p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row roww">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Reserva Indígena Pataxó de Coroa Vermelha</h2>                            
-                            <img class="img-responsive img-responsive-two img-centered" src="imgs/PT-reservaIndigena.JPG" alt="">
-                            <p> Maior reserva indígena urbana do Brasil, a Reserva Indígena Pataxó está localizada em Santa Cruz Cabrália, nos limites dos rios Mutá e Mutari, na BR-367 que liga o município á Porto Seguro. São cerca de 30 famílias “puras” e mais de 200 miscigenadas. O artesanato indígena é um dos grandes atrativos.</p>                          
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-        <!-- Portfolio Modal 7 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row roww">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Praia de Santo André</h2>                            
-                            <img class="img-responsive img-responsive-two img-centered" src="imgs/PT-SantoAndre.jpg" alt="">
-                            <p>A Praia que encantou os Alemães, e com certeza encantará você.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-        <!-- Portfolio Modal 8 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row roww">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Centro Hístorico</h2>                           
-                            <img class="img-responsive img-responsive-two img-centered" src="imgs/PT-Centro-Historico-Santa-Cruz-Cabr%C3%A1lia.jpg" alt="">
-                            <p> O Centro Histórico, na praça da Matriz, destaca-se pelas edificações seculares da Igreja de Nossa Senhora da Conceição, da Casa de Câmara e do Presídio. O local também possui um mirante, que realça a beleza natural de seus arredores e exibe uma bela vista panorâmica.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
+    </section> <!-- /.subscribe-section -->
 
 
 
 
-</body></html>
+    <!-- Footer -->
+    <footer class="footer-section" role="contentinfo">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 col-footer">
+            
+            <!-- Footer 1 -->
+            <section>
+              <p>Venha para Santa Cruz Cabrália</p>
+            </section>
+
+
+          </div> <!-- /.col-md-4 -->
+
+          <div class="col-md-4 col-footer col-padding">
+            
+            <!-- Footer 1 -->
+            <section class="text-center">
+              <p>Entre em contato conosco.</p>
+            </section>
+
+            <!-- Social media links -->
+            <ul class="social-media-links">
+
+              <li><a class="fa fa-facebook fb" href="https://www.facebook.com/hayoapp/"></a></li>
+              
+            </ul> <!-- /.social-media-links -->
+
+          </div> <!-- /.col-md-4 -->
+
+          <div class="col-md-4 col-footer">
+            
+            <!-- Footer 1 -->
+            <section>
+              <p><strong>Villa Digital</strong> <br>Santa Cruz Cabrália, Bahia</p>
+            </section>
+
+          </div> <!-- /.col-md-4 -->
+          
+        </div> <!-- /.row -->
+
+      </div> <!-- /.container -->
+
+    </footer> <!-- /.footer-section -->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="javascript/vendor/jquery-2.1.0.min.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+    <script src="javascript/assets/application.js"></script>
+  </body>
+</html>
