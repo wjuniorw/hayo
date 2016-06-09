@@ -1,0 +1,14 @@
+{
+  "name": "Hayô site",
+  "description": "Testando site do Hayô",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "images/favicon/favicon.png",
+    "128": "images/favicon/favicon.png"
+  },
+  "developer": {
+    "name": "Stark dev",
+    "url": "hayo.herokuapp.com"
+  },
+  "default_locale": "br"
+}
