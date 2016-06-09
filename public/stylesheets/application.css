@@ -9,11 +9,6 @@ body {
   margin: 0;
 }
 
-@media (device-height: 568px) and (height: 529px),
-(device-height: 480px) and (height: 441px) {
-/* minimal-ui is active */
-}
-
 article,
 aside,
 details,
